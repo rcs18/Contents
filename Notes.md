@@ -1,31 +1,33 @@
 # RCS18 - Notes
 
 - [Monday](#monday)
-
-  * [A software development workflow for academic research — Wenzel Jakob (EPFL) ](#mon1)
-  * [The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University) ](#mon2)
-  * [Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google) ](#mon3)
-  * [Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert) ](#mon4)
-  * [Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech) ](#mon5)
-
-
+  * [A software development workflow for academic research — Wenzel Jakob (EPFL)](#a-software-development-workflow-for-academic-research--wenzel-jakob-epfl)
+  * [The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University)](#the-philosophy-of-reproducible-quantitative-methods--christie-bahlai-kent-state-university)
+  * [Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google)](#research-from-an-engineering-viewpoint-software-development-process-and-best-practices--filip-paveti%C4%87-google)
+  * [Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert)](#advanced-git-workshop--sourabh-lal-epfl-github-campus-expert)
+  * [Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech)](#tools-for-reproducible-research-workshop--tim-head-wild-tree-tech)
 - [Tuesday](#tuesday)
-
-  * [Introduction to the Renku platform — Eric Bouillet (SDSC) ](#tue1)
-  * [The journal as a medium for publishing software — Kate Keahey (University of Chicago) ](#tue2)
-  * [Automatic tools for reproducible research — Kate Keahey (University of Chicago) ](#tue3)
-  * [Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich) ](#tue4)
-  * [Discussion Panel ](#tue5)
-  * [Data management in research — Ana Sesartic Petrus & Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich) ](#tue6)
-  * [Practical data management — Anna Krystalli (University of Sheffield) ](#tue7)
-
+  * [Introduction to the Renku platform — Eric Bouillet (SDSC)](#introduction-to-the-renku-platform--eric-bouillet-sdsc)
+  * [The journal as a medium for publishing software — Kate Keahey (University of Chicago)](#the-journal-as-a-medium-for-publishing-software--kate-keahey-university-of-chicago)
+  * [Automatic tools for reproducible research — Kate Keahey (University of Chicago)](#automatic-tools-for-reproducible-research--kate-keahey-university-of-chicago)
+  * [Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich)](#techniques-and-guidelines-for-reporting-reproducible-and-statistically-sound-result--torsten-hoefler-eth-z%C3%BCrich)
+  * [Discussion Panel](#discussion-panel)
+  * [Data management in research — Ana Sesartic Petrus &amp; Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)](#data-management-in-research--ana-sesartic-petrus--malin-michelle-ziehmer-digital-curation-office-eth-z%C3%BCrich)
+  * [Practical data management — Anna Krystalli (University of Sheffield)](#practical-data-management--anna-krystalli-university-of-sheffield)
 - [Wednesday](#wednesday)
+  * [Publishing and maintaining open data — Bastian Greshake Tzovaras (OpenSNP, OpenHumans)](#publishing-and-maintaining-open-data--bastian-greshake-tzovaras-opensnp-openhumans)
+  * [Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich)](#tools-for-reproducibility-in-statistics-and-machine-learning--heidi-seibold-lmu-munich)
+  * [How to write a <del>perfect</del> <em>pretty good</em> reproducible paper (Workshop) — Christie Bahlai (Kent State University) &amp; Anna Krystalli (University of Sheffield)](#how-to-write-a-perfect-pretty-good-reproducible-paper-workshop--christie-bahlai-kent-state-university--anna-krystalli-university-of-sheffield)
+- [Thursday](#thursday)
+  * [Team 1](#team-1)
+  * [Team 2](#team-2)
+  * [Team 3](#team-3)
+  * [Team 4](#team-4)
+  * [Team 5](#team-5)
+  * [Team 6](#team-6)
+  * [Team 7](#team-7)
 
-  * [Publishing and maintaining open data — Bastian Greshake Tzovaras (OpenSNP, OpenHumans) ](#wed1)
-  * [Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich) ](#wed2)
-  * [How to write a ~~perfect~~ *pretty good* reproducible paper (Workshop) — Christie Bahlai (Kent State University) & Anna Krystalli (University of Sheffield) ](#wed3)
-
-- [Thursday (group project presentations)](#thursday)
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 # Monday 
 
