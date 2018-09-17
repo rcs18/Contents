@@ -31,7 +31,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 # Monday 
 
-[back to top](rcs18---notes)
+[back to top](#rcs18---notes)
 
 ## A software development workflow for academic research — Wenzel Jakob (EPFL)
 
