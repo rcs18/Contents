@@ -163,7 +163,7 @@ import matplotlib.pyplot as plt
 
 Can one update the git repository while binder instance is running on the same repository? 
 
-Answer: Yes, as long as dependencies do not change. You can commit new changes and push them, then pull them from the binder instance to update the repository. When dependencies change one needs to restard the binder instance. 
+- Yes, as long as dependencies do not change. You can commit new changes and push them, then pull them from the binder instance to update the repository. When dependencies change one needs to restard the binder instance. 
 
 
 # Tuesday 
@@ -494,22 +494,25 @@ Summary
 - share data with a license allowing remixing and reusing but sharing human data can be tricky
 
 ### Questions
-- How to get data on human-to-human interactions, such as geo-tagged facebook data? 
-    - tricky to know what is right or wrong when dealing with humans and their data in general. Just because it is doesn't mean that it is okay or if people will feel okay with that use of their data. Doing an ethical review before starting your project could help.
-- How much expertise in terms of coding do you need to use OpenHumans? 
-    - One can just press the play button of the jupyter notebook provided that there are no errors
-    - Depends on what comunity builds, some app for directly plotting your twitter history for example requires no coding at all. 
-    - otherwise it is currently not suited for people without programming experience. 
-- How big and problematic is the bias in terms of who is able / willing to use OpenHumans
-    - white humans have their genomes tested in academia mostly, or psychology students only study psychology students -> creates a huge bias anyways
-    - OpenHumans does not solve this bias problem in that sense, but is not worse either
-- Artificial pancreas: what is the liability situation here? What it something goes wrong?
-    - The researcher should always try to make their work as safe as possible, but it's going to be hard to stop anything going wrong. Sometimes you can't stop people from doing unreasonable things (stupid people :)
-- What is the growth rate of data being published? 
-    - slightly superlinear but not exponential
-    - it is getting better and better since people actually start having access to more of their personal data. 
-- Does the person wanting to share the data need to do a good job in prepping the data to share?
-    - Of course that's nice but many potential donors don't document their data properly, purely from not knowing any better. Also humans are unique and everyone documents themselves in differently. It's hard for researchers to prep donors to give data in a certain way (reproducibly).
+How to get data on human-to-human interactions, such as geo-tagged facebook data? 
+- tricky to know what is right or wrong when dealing with humans and their data in general. Just because it is doesn't mean that it is okay or if people will feel okay with that use of their data. Doing an ethical review before starting your project could help.
+How much expertise in terms of coding do you need to use OpenHumans? 
+- One can just press the play button of the jupyter notebook provided that there are no errors
+- Depends on what comunity builds, some app for directly plotting your twitter history for example requires no coding at all. 
+- otherwise it is currently not suited for people without programming experience. 
+
+How big and problematic is the bias in terms of who is able / willing to use OpenHumans
+- white humans have their genomes tested in academia mostly, or psychology students only study psychology students -> creates a huge bias anyways
+- OpenHumans does not solve this bias problem in that sense, but is not worse either
+
+Artificial pancreas: what is the liability situation here? What it something goes wrong?
+- The researcher should always try to make their work as safe as possible, but it's going to be hard to stop anything going wrong. Sometimes you can't stop people from doing unreasonable things (stupid people :)
+What is the growth rate of data being published? 
+- slightly superlinear but not exponential
+- it is getting better and better since people actually start having access to more of their personal data. 
+
+Does the person wanting to share the data need to do a good job in prepping the data to share?
+- Of course that's nice but many potential donors don't document their data properly, purely from not knowing any better. Also humans are unique and everyone documents themselves in differently. It's hard for researchers to prep donors to give data in a certain way (reproducibly).
 
 ## Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich)
 
@@ -566,23 +569,29 @@ I add this for python / c++ users:
 
 ### Questions
 
-1. Do you consider Linked-In a good place for an online presence?
+Do you consider Linked-In a good place for an online presence?
 - She doesn't use but suggests could be useful if leaving your academic bubble.
-2. Tryout - how to order the potential mess (100s of Jupyter notebooks)
+
+Tryout - how to order the potential mess (100s of Jupyter notebooks)
 - Use some naming conventions and eventually delete unneeded code (it's saved on version control so it's never really gone)
-3. Online presence: best place for impact?
+
+Online presence: best place for impact?
 - Twitter, connect to people you wouldn't really know about otherwise. Can share thoughts with people in a small and controlled way.
 - Blog is cool but requires more work.
 - Conferences are also useful for meeting people.
-4. At what point did you figure out your process flow?
+
+At what point did you figure out your process flow?
 - In progress for her to learn as well. Lots of trial and error and maybe later after you find the 'right way' she may change again. She thinks it's important to be able to explain why you use a tool or process or change to something else.
     - Anna feedback: have internal reports that you can share for discussion, kind of like meeting notes
 
 ## How to write a ~~perfect~~ *pretty good* reproducible paper (Workshop) — Christie Bahlai (Kent State University) & Anna Krystalli (University of Sheffield) 
 
 Slides: https://docs.google.com/presentation/d/1MYetj9Ytd7rrGfbgIQoSLkwukN9qf-oqhuvpY3eoCIA/edit?usp=sharing
+
 Paper: http://rsos.royalsocietypublishing.org/content/3/12/160712
+
 Code repo: https://github.com/ReproducibleQM/rebugged
+
 Data: https://figshare.com/articles/LTER_Mecoptera_data/3569313
 
 # Thursday
