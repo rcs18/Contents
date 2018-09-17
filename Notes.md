@@ -170,6 +170,8 @@ Can one update the git repository while binder instance is running on the same r
 
 # Tuesday 
 
+[back to top](#rcs18---notes)
+
 ## Introduction to the Renku platform — Eric Bouillet (SDSC)
 
 Big data also means lots of bad data.
@@ -441,6 +443,8 @@ On other sytems try installing:
 
 # Wednesday
 
+[back to top](#rcs18---notes)
+
 ## Publishing and maintaining open data — Bastian Greshake Tzovaras (OpenSNP, OpenHumans)
 
 Slides are at: https://figshare.com/articles/Sharing_Data_Why_How_When_/7076708 
@@ -597,6 +601,8 @@ Code repo: https://github.com/ReproducibleQM/rebugged
 Data: https://figshare.com/articles/LTER_Mecoptera_data/3569313
 
 # Thursday
+
+[back to top](#rcs18---notes)
 
 ## Team 1
 
