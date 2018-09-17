@@ -1,11 +1,39 @@
 # RCS18 - Notes
 
-[TOC]
+- [Monday](#monday)
+  * [A software development workflow for academic research — Wenzel Jakob (EPFL)](#a-software-development-workflow-for-academic-research--wenzel-jakob-epfl)
+  * [The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University)](#the-philosophy-of-reproducible-quantitative-methods--christie-bahlai-kent-state-university)
+  * [Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google)](#research-from-an-engineering-viewpoint-software-development-process-and-best-practices--filip-paveti%C4%87-google)
+  * [Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert)](#advanced-git-workshop--sourabh-lal-epfl-github-campus-expert)
+  * [Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech)](#tools-for-reproducible-research-workshop--tim-head-wild-tree-tech)
+- [Tuesday](#tuesday)
+  * [Introduction to the Renku platform — Eric Bouillet (SDSC)](#introduction-to-the-renku-platform--eric-bouillet-sdsc)
+  * [The journal as a medium for publishing software — Kate Keahey (University of Chicago)](#the-journal-as-a-medium-for-publishing-software--kate-keahey-university-of-chicago)
+  * [Automatic tools for reproducible research — Kate Keahey (University of Chicago)](#automatic-tools-for-reproducible-research--kate-keahey-university-of-chicago)
+  * [Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich)](#techniques-and-guidelines-for-reporting-reproducible-and-statistically-sound-result--torsten-hoefler-eth-z%C3%BCrich)
+  * [Discussion Panel](#discussion-panel)
+  * [Data management in research — Ana Sesartic Petrus &amp; Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)](#data-management-in-research--ana-sesartic-petrus--malin-michelle-ziehmer-digital-curation-office-eth-z%C3%BCrich)
+  * [Practical data management — Anna Krystalli (University of Sheffield)](#practical-data-management--anna-krystalli-university-of-sheffield)
+- [Wednesday](#wednesday)
+  * [Publishing and maintaining open data — Bastian Greshake Tzovaras (OpenSNP, OpenHumans)](#publishing-and-maintaining-open-data--bastian-greshake-tzovaras-opensnp-openhumans)
+  * [Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich)](#tools-for-reproducibility-in-statistics-and-machine-learning--heidi-seibold-lmu-munich)
+  * [How to write a <del>perfect</del> <em>pretty good</em> reproducible paper (Workshop) — Christie Bahlai (Kent State University) &amp; Anna Krystalli (University of Sheffield)](#how-to-write-a-perfect-pretty-good-reproducible-paper-workshop--christie-bahlai-kent-state-university--anna-krystalli-university-of-sheffield)
+- [Thursday](#thursday)
+  * [Team 1](#team-1)
+  * [Team 2](#team-2)
+  * [Team 3](#team-3)
+  * [Team 4](#team-4)
+  * [Team 5](#team-5)
+  * [Team 6](#team-6)
+  * [Team 7](#team-7)
 
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
-# Monday
+# Monday 
 
-## 09:00 - 10:00 *A software development workflow for academic research — Wenzel Jakob (EPFL)
+[back to top](#rcs18---notes)
+
+## A software development workflow for academic research — Wenzel Jakob (EPFL)
 
 Academic software dev. -> experimental -> facing trade-off between two extremes: prototyping (innovation) and engineering (impact). Is it possible to have best of both?
 
@@ -39,7 +67,7 @@ This talk is a tentative cost-benefit analysis of adopting industrial engineerin
 - very motivating to see others use the code and potentially commercial applications
 - good for other metrics as well (citations, etc.)
 
-## 10:00 - 11:00 The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University)
+## The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University)
 
 Slides: https://docs.google.com/presentation/d/1SvHPecp7UgOC0HENRlTHbfCfSyVP_Kayiq-FvdPpx_c/edit?usp=sharing
 
@@ -67,7 +95,7 @@ semester project -> [preprint](https://www.biorxiv.org/content/early/2016/11/05/
 
 Make expectations clear -> share a policy -> enforcing? (still unsure how..)
 
-## 11:30 - 12:30 Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google)
+## Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google)
 
 Slides: 
 
@@ -96,7 +124,7 @@ How review is organised at Google. 3 approvals needed to get code accepted:
 2. Readability reviewer comments on the language
 3. General reviewer commetn on correctness
 
-## 13:30 - 14:30 	Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert)
+## Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert)
 
 Git Cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
 
@@ -107,7 +135,7 @@ Open source video: https://www.youtube.com/watch?v=Tyd0FO0tko8
 GitHub flow - try it out here: https://github.com/sourabhlal/github_flow_demo
 
 
-## 14:30 - 18:00 	Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech)
+## Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech)
 
 💡💡💡 Please bring your (charged) laptop 💡💡💡
 
@@ -135,24 +163,16 @@ import matplotlib.pyplot as plt
 
 ### Questions
 
-What has worked really well for me is writing down all the questions as they occur, as well as the replies here.
+Can one update the git repository while binder instance is running on the same repository? 
 
-Write down any and all questions. We will try and answer them as time goes along.
-
-If you ask a question it would be great if you could also write down the answer when you get it. This spreads around the work of making notes.
-
-#### A question about something that is interesting? 
-A reply to your interesting question. Written by whoever knows something.
-
-#### Another question about something that is interesting? 
-A reply to your interesting question. Written by whoever knows something.
-
-
+- Yes, as long as dependencies do not change. You can commit new changes and push them, then pull them from the binder instance to update the repository. When dependencies change one needs to restard the binder instance. 
 
 
 # Tuesday 
 
-## 09:00 - 10:00 	Introduction to the Renku platform — Eric Bouillet (SDSC)
+[back to top](#rcs18---notes)
+
+## Introduction to the Renku platform — Eric Bouillet (SDSC)
 
 Big data also means lots of bad data.
 
@@ -206,7 +226,7 @@ How can I use the Renku platform with closed data?
 Which programming languages are supported?
 - Python, R, Julia supported by default, can support any other languages using dockerfiles
 
-## 10:00 - 10:45 	The journal as a medium for publishing software — Kate Keahey (University of Chicago)
+## The journal as a medium for publishing software — Kate Keahey (University of Chicago)
 
 Software is underrated as a scientific instrument. It is an original scientific contribution as well. Let's give credit to software developers as well.
 
@@ -230,7 +250,7 @@ Publishing software (as a specific implementation of a given algorithm) is a way
 In the computer science field, it's not unusual to publish a paper about a new piece of software, how does this relate to SoftwareX?
 - There are two aspects to software, the theory behind it and it's an actual implementation. Same difference as a blueprint for a tool (theory) and a working tool (software). Makes sense to publish both in appropriate journals.
 
-## 11:00 - 11:30 	Automatic tools for reproducible research — Kate Keahey (University of Chicago)
+## Automatic tools for reproducible research — Kate Keahey (University of Chicago)
 
 [Chameleon](https://www.chameleoncloud.org/)
 - Provides a testbed for exploring a range of problems in computer science (software development, kernel support for virtualization, etc.).
@@ -261,7 +281,7 @@ In the computer science field, it's not unusual to publish a paper about a new p
 - API?
 - Rollback to old version of hardware??
 
-## 11:30 - 12:30 	Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich)
+## Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich)
 
 Reproducable performance is hard (impossible)
 
@@ -299,7 +319,7 @@ When measuring performance, there are important questions with that are often an
 Reference Torsten's paper for more information on his talk:
 [' Scientific Benchmarking of Parallel Computing Systems'](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf)f
 
-## 13:30 - 15:00 	Discussion Panel
+## Discussion Panel
 
 1. Are the tools that we learn about at this summer school going to be obsolete within the next 2-5 years? How much effort is it for one to stay on top of the development of new tools? Could the reluctance of seniors researchers to learning and using the newest tools be justified by this?
 - you're learning the backflow of many tools now, when later there will probably only be one tool, one push of a button.
@@ -344,7 +364,7 @@ Reference Torsten's paper for more information on his talk:
 - Christie - can make fake datasets that should work with the code but doesn't expose the real data.
 - Torsten - dealing with trade secrets is always hard to deal with in research. You will have to convince the readers that you have valid work without sharing that private data or trade secret.
 
-## 15:30 - 17:30 	Data management in research — Ana Sesartic Petrus & Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)
+## Data management in research — Ana Sesartic Petrus & Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)
 
 [Digital Curation Office](https://www.library.ethz.ch/en/ms/Digital-Curation-at-ETH-Zurich)
 
@@ -394,7 +414,7 @@ Reference Torsten's paper for more information on his talk:
 
 Take home message - think about what you do and start your management early in your career. 'Keep it as simple as possible - but distrust it!'
 
-## 17:30 - 18:00 	Practical data management — Anna Krystalli (University of Sheffield)
+## Practical data management — Anna Krystalli (University of Sheffield)
 
 [dataspice](https://github.com/ropenscilabs/dataspice) - way for researchers to create lightweight, basic and concise metadata files for their datasets.
 
@@ -423,7 +443,9 @@ On other sytems try installing:
 
 # Wednesday
 
-## 09:00 - 10:00 	Publishing and maintaining open data — Bastian Greshake Tzovaras
+[back to top](#rcs18---notes)
+
+## Publishing and maintaining open data — Bastian Greshake Tzovaras (OpenSNP, OpenHumans)
 
 Slides are at: https://figshare.com/articles/Sharing_Data_Why_How_When_/7076708 
 
@@ -477,25 +499,28 @@ Summary
 - plenty of places to share data
 - share data with a license allowing remixing and reusing but sharing human data can be tricky
 
-Questions
-- How to get data on human-to-human interactions, such as geo-tagged facebook data? 
-    - tricky to know what is right or wrong when dealing with humans and their data in general. Just because it is doesn't mean that it is okay or if people will feel okay with that use of their data. Doing an ethical review before starting your project could help.
-- How much expertise in terms of coding do you need to use OpenHumans? 
-    - One can just press the play button of the jupyter notebook provided that there are no errors
-    - Depends on what comunity builds, some app for directly plotting your twitter history for example requires no coding at all. 
-    - otherwise it is currently not suited for people without programming experience. 
-- How big and problematic is the bias in terms of who is able / willing to use OpenHumans
-    - white humans have their genomes tested in academia mostly, or psychology students only study psychology students -> creates a huge bias anyways
-    - OpenHumans does not solve this bias problem in that sense, but is not worse either
-- Artificial pancreas: what is the liability situation here? What it something goes wrong?
-    - The researcher should always try to make their work as safe as possible, but it's going to be hard to stop anything going wrong. Sometimes you can't stop people from doing unreasonable things (stupid people :)
-- What is the growth rate of data being published? 
-    - slightly superlinear but not exponential
-    - it is getting better and better since people actually start having access to more of their personal data. 
-- Does the person wanting to share the data need to do a good job in prepping the data to share?
-    - Of course that's nice but many potential donors don't document their data properly, purely from not knowing any better. Also humans are unique and everyone documents themselves in differently. It's hard for researchers to prep donors to give data in a certain way (reproducibly).
+### Questions
+How to get data on human-to-human interactions, such as geo-tagged facebook data? 
+- tricky to know what is right or wrong when dealing with humans and their data in general. Just because it is doesn't mean that it is okay or if people will feel okay with that use of their data. Doing an ethical review before starting your project could help.
+How much expertise in terms of coding do you need to use OpenHumans? 
+- One can just press the play button of the jupyter notebook provided that there are no errors
+- Depends on what comunity builds, some app for directly plotting your twitter history for example requires no coding at all. 
+- otherwise it is currently not suited for people without programming experience. 
 
-## 10:00 - 11:00 	Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich)
+How big and problematic is the bias in terms of who is able / willing to use OpenHumans
+- white humans have their genomes tested in academia mostly, or psychology students only study psychology students -> creates a huge bias anyways
+- OpenHumans does not solve this bias problem in that sense, but is not worse either
+
+Artificial pancreas: what is the liability situation here? What it something goes wrong?
+- The researcher should always try to make their work as safe as possible, but it's going to be hard to stop anything going wrong. Sometimes you can't stop people from doing unreasonable things (stupid people :)
+What is the growth rate of data being published? 
+- slightly superlinear but not exponential
+- it is getting better and better since people actually start having access to more of their personal data. 
+
+Does the person wanting to share the data need to do a good job in prepping the data to share?
+- Of course that's nice but many potential donors don't document their data properly, purely from not knowing any better. Also humans are unique and everyone documents themselves in differently. It's hard for researchers to prep donors to give data in a certain way (reproducibly).
+
+## Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich)
 
 Slides: https://goo.gl/sJqBNB
 Video: https://youtu.be/JP1m8TkaJHY
@@ -548,30 +573,36 @@ I add this for python / c++ users:
 - flows (algorithms)
 - results (which flow gave which result on which data)
 
-Questions:
-1. Do you consider Linked-In a good place for an online presence?
+### Questions
+
+Do you consider Linked-In a good place for an online presence?
 - She doesn't use but suggests could be useful if leaving your academic bubble.
-2. Tryout - how to order the potential mess (100s of Jupyter notebooks)
+
+Tryout - how to order the potential mess (100s of Jupyter notebooks)
 - Use some naming conventions and eventually delete unneeded code (it's saved on version control so it's never really gone)
-3. Online presence: best place for impact?
+
+Online presence: best place for impact?
 - Twitter, connect to people you wouldn't really know about otherwise. Can share thoughts with people in a small and controlled way.
 - Blog is cool but requires more work.
 - Conferences are also useful for meeting people.
-4. At what point did you figure out your process flow?
+
+At what point did you figure out your process flow?
 - In progress for her to learn as well. Lots of trial and error and maybe later after you find the 'right way' she may change again. She thinks it's important to be able to explain why you use a tool or process or change to something else.
     - Anna feedback: have internal reports that you can share for discussion, kind of like meeting notes
 
-## 11:30 - 12:30 	Project work
-
-
-## 13:30 - 18:00 	How to write a ~~perfect~~ *pretty good* reproducible paper (Workshop) — Christie Bahlai (Kent State University) & Anna Krystalli (University of Sheffield) 
+## How to write a ~~perfect~~ *pretty good* reproducible paper (Workshop) — Christie Bahlai (Kent State University) & Anna Krystalli (University of Sheffield) 
 
 Slides: https://docs.google.com/presentation/d/1MYetj9Ytd7rrGfbgIQoSLkwukN9qf-oqhuvpY3eoCIA/edit?usp=sharing
+
 Paper: http://rsos.royalsocietypublishing.org/content/3/12/160712
+
 Code repo: https://github.com/ReproducibleQM/rebugged
+
 Data: https://figshare.com/articles/LTER_Mecoptera_data/3569313
 
 # Thursday
+
+[back to top](#rcs18---notes)
 
 ## Team 1
 
@@ -735,3 +766,4 @@ Synthesise light field image (8x8 images) using 4 corner images. Done using 2 ne
 - Could do the training on CPU only, but would probably take too long. 
 - Only 2 parameters documented. 
 - Everything under copyright, "personal use" only? 
+
