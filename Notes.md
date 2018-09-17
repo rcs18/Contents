@@ -31,6 +31,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 # Monday 
 
+[back to top](rcs18---notes)
+
 ## A software development workflow for academic research — Wenzel Jakob (EPFL)
 
 Academic software dev. -> experimental -> facing trade-off between two extremes: prototyping (innovation) and engineering (impact). Is it possible to have best of both?
