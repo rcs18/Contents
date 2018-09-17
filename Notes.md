@@ -1,7 +1,12 @@
 # RCS18 - Notes
 
-[TOC]
+[Monday](#monday)
 
+[Tuesday](#tuesday)
+
+[Wednesday](#wednesday)
+
+[Thursday](#thursday)
 
 # Monday
 
