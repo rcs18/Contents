@@ -1,15 +1,45 @@
 # RCS18 - Notes
 
 [Monday](#monday)
-[
+
+[A software development workflow for academic research — Wenzel Jakob (EPFL) ](#mon1)
+
+[The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University) ](#mon2)
+
+[Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google) ](#mon3)
+
+[Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert) ](#mon4)
+
+[Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech) ](#mon5)
+
 
 [Tuesday](#tuesday)
 
+[Introduction to the Renku platform — Eric Bouillet (SDSC) ](#tue1)
+
+[The journal as a medium for publishing software — Kate Keahey (University of Chicago) ](#tue2)
+
+[Automatic tools for reproducible research — Kate Keahey (University of Chicago) ](#tue3)
+
+[Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich) ](#tue4)
+
+[Discussion Panel ](#tue5)
+
+[Data management in research — Ana Sesartic Petrus & Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich) ](#tue6)
+
+[Practical data management — Anna Krystalli (University of Sheffield) ](#tue7)
+
 [Wednesday](#wednesday)
 
-[Thursday](#thursday)
+[Publishing and maintaining open data — Bastian Greshake Tzovaras (OpenSNP, OpenHumans) ](#wed1)
 
-# Monday
+[Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich) ](#wed2)
+
+[How to write a ~~perfect~~ *pretty good* reproducible paper (Workshop) — Christie Bahlai (Kent State University) & Anna Krystalli (University of Sheffield) ](#wed3)
+
+[Thursday (group project presentations)](#thursday)
+
+# Monday 
 
 ## A software development workflow for academic research — Wenzel Jakob (EPFL)
 
@@ -419,7 +449,7 @@ On other sytems try installing:
 
 # Wednesday
 
-## Publishing and maintaining open data — Bastian Greshake Tzovaras
+## Publishing and maintaining open data — Bastian Greshake Tzovaras (OpenSNP, OpenHumans)
 
 Slides are at: https://figshare.com/articles/Sharing_Data_Why_How_When_/7076708 
 
@@ -729,3 +759,4 @@ Synthesise light field image (8x8 images) using 4 corner images. Done using 2 ne
 - Could do the training on CPU only, but would probably take too long. 
 - Only 2 parameters documented. 
 - Everything under copyright, "personal use" only? 
+
