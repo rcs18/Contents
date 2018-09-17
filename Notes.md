@@ -1,6 +1,7 @@
 # RCS18 - Notes
 
 [Monday](#monday)
+[
 
 [Tuesday](#tuesday)
 
@@ -10,7 +11,7 @@
 
 # Monday
 
-## 09:00 - 10:00 *A software development workflow for academic research — Wenzel Jakob (EPFL)
+## A software development workflow for academic research — Wenzel Jakob (EPFL)
 
 Academic software dev. -> experimental -> facing trade-off between two extremes: prototyping (innovation) and engineering (impact). Is it possible to have best of both?
 
@@ -44,7 +45,7 @@ This talk is a tentative cost-benefit analysis of adopting industrial engineerin
 - very motivating to see others use the code and potentially commercial applications
 - good for other metrics as well (citations, etc.)
 
-## 10:00 - 11:00 The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University)
+## The philosophy of reproducible quantitative methods — Christie Bahlai (Kent State University)
 
 Slides: https://docs.google.com/presentation/d/1SvHPecp7UgOC0HENRlTHbfCfSyVP_Kayiq-FvdPpx_c/edit?usp=sharing
 
@@ -72,7 +73,7 @@ semester project -> [preprint](https://www.biorxiv.org/content/early/2016/11/05/
 
 Make expectations clear -> share a policy -> enforcing? (still unsure how..)
 
-## 11:30 - 12:30 Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google)
+## Research from an engineering viewpoint: Software development process and best practices — Filip Pavetić (Google)
 
 Slides: 
 
@@ -101,7 +102,7 @@ How review is organised at Google. 3 approvals needed to get code accepted:
 2. Readability reviewer comments on the language
 3. General reviewer commetn on correctness
 
-## 13:30 - 14:30 	Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert)
+## Advanced git workshop — Sourabh Lal (EPFL, GitHub Campus Expert)
 
 Git Cheatsheet: https://education.github.com/git-cheat-sheet-education.pdf
 
@@ -112,7 +113,7 @@ Open source video: https://www.youtube.com/watch?v=Tyd0FO0tko8
 GitHub flow - try it out here: https://github.com/sourabhlal/github_flow_demo
 
 
-## 14:30 - 18:00 	Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech)
+## Tools for reproducible research (Workshop) — Tim Head (Wild Tree Tech)
 
 💡💡💡 Please bring your (charged) laptop 💡💡💡
 
@@ -140,24 +141,14 @@ import matplotlib.pyplot as plt
 
 ### Questions
 
-What has worked really well for me is writing down all the questions as they occur, as well as the replies here.
+Can one update the git repository while binder instance is running on the same repository? 
 
-Write down any and all questions. We will try and answer them as time goes along.
-
-If you ask a question it would be great if you could also write down the answer when you get it. This spreads around the work of making notes.
-
-#### A question about something that is interesting? 
-A reply to your interesting question. Written by whoever knows something.
-
-#### Another question about something that is interesting? 
-A reply to your interesting question. Written by whoever knows something.
-
-
+Answer: Yes, as long as dependencies do not change. You can commit new changes and push them, then pull them from the binder instance to update the repository. When dependencies change one needs to restard the binder instance. 
 
 
 # Tuesday 
 
-## 09:00 - 10:00 	Introduction to the Renku platform — Eric Bouillet (SDSC)
+## Introduction to the Renku platform — Eric Bouillet (SDSC)
 
 Big data also means lots of bad data.
 
@@ -211,7 +202,7 @@ How can I use the Renku platform with closed data?
 Which programming languages are supported?
 - Python, R, Julia supported by default, can support any other languages using dockerfiles
 
-## 10:00 - 10:45 	The journal as a medium for publishing software — Kate Keahey (University of Chicago)
+## The journal as a medium for publishing software — Kate Keahey (University of Chicago)
 
 Software is underrated as a scientific instrument. It is an original scientific contribution as well. Let's give credit to software developers as well.
 
@@ -235,7 +226,7 @@ Publishing software (as a specific implementation of a given algorithm) is a way
 In the computer science field, it's not unusual to publish a paper about a new piece of software, how does this relate to SoftwareX?
 - There are two aspects to software, the theory behind it and it's an actual implementation. Same difference as a blueprint for a tool (theory) and a working tool (software). Makes sense to publish both in appropriate journals.
 
-## 11:00 - 11:30 	Automatic tools for reproducible research — Kate Keahey (University of Chicago)
+## Automatic tools for reproducible research — Kate Keahey (University of Chicago)
 
 [Chameleon](https://www.chameleoncloud.org/)
 - Provides a testbed for exploring a range of problems in computer science (software development, kernel support for virtualization, etc.).
@@ -266,7 +257,7 @@ In the computer science field, it's not unusual to publish a paper about a new p
 - API?
 - Rollback to old version of hardware??
 
-## 11:30 - 12:30 	Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich)
+## Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich)
 
 Reproducable performance is hard (impossible)
 
@@ -304,7 +295,7 @@ When measuring performance, there are important questions with that are often an
 Reference Torsten's paper for more information on his talk:
 [' Scientific Benchmarking of Parallel Computing Systems'](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf)f
 
-## 13:30 - 15:00 	Discussion Panel
+## Discussion Panel
 
 1. Are the tools that we learn about at this summer school going to be obsolete within the next 2-5 years? How much effort is it for one to stay on top of the development of new tools? Could the reluctance of seniors researchers to learning and using the newest tools be justified by this?
 - you're learning the backflow of many tools now, when later there will probably only be one tool, one push of a button.
@@ -349,7 +340,7 @@ Reference Torsten's paper for more information on his talk:
 - Christie - can make fake datasets that should work with the code but doesn't expose the real data.
 - Torsten - dealing with trade secrets is always hard to deal with in research. You will have to convince the readers that you have valid work without sharing that private data or trade secret.
 
-## 15:30 - 17:30 	Data management in research — Ana Sesartic Petrus & Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)
+## Data management in research — Ana Sesartic Petrus & Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)
 
 [Digital Curation Office](https://www.library.ethz.ch/en/ms/Digital-Curation-at-ETH-Zurich)
 
@@ -399,7 +390,7 @@ Reference Torsten's paper for more information on his talk:
 
 Take home message - think about what you do and start your management early in your career. 'Keep it as simple as possible - but distrust it!'
 
-## 17:30 - 18:00 	Practical data management — Anna Krystalli (University of Sheffield)
+## Practical data management — Anna Krystalli (University of Sheffield)
 
 [dataspice](https://github.com/ropenscilabs/dataspice) - way for researchers to create lightweight, basic and concise metadata files for their datasets.
 
@@ -428,7 +419,7 @@ On other sytems try installing:
 
 # Wednesday
 
-## 09:00 - 10:00 	Publishing and maintaining open data — Bastian Greshake Tzovaras
+## Publishing and maintaining open data — Bastian Greshake Tzovaras
 
 Slides are at: https://figshare.com/articles/Sharing_Data_Why_How_When_/7076708 
 
@@ -482,7 +473,7 @@ Summary
 - plenty of places to share data
 - share data with a license allowing remixing and reusing but sharing human data can be tricky
 
-Questions
+### Questions
 - How to get data on human-to-human interactions, such as geo-tagged facebook data? 
     - tricky to know what is right or wrong when dealing with humans and their data in general. Just because it is doesn't mean that it is okay or if people will feel okay with that use of their data. Doing an ethical review before starting your project could help.
 - How much expertise in terms of coding do you need to use OpenHumans? 
@@ -500,7 +491,7 @@ Questions
 - Does the person wanting to share the data need to do a good job in prepping the data to share?
     - Of course that's nice but many potential donors don't document their data properly, purely from not knowing any better. Also humans are unique and everyone documents themselves in differently. It's hard for researchers to prep donors to give data in a certain way (reproducibly).
 
-## 10:00 - 11:00 	Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich)
+## Tools for reproducibility in Statistics and Machine Learning — Heidi Seibold (LMU Munich)
 
 Slides: https://goo.gl/sJqBNB
 Video: https://youtu.be/JP1m8TkaJHY
@@ -553,7 +544,8 @@ I add this for python / c++ users:
 - flows (algorithms)
 - results (which flow gave which result on which data)
 
-Questions:
+### Questions
+
 1. Do you consider Linked-In a good place for an online presence?
 - She doesn't use but suggests could be useful if leaving your academic bubble.
 2. Tryout - how to order the potential mess (100s of Jupyter notebooks)
@@ -566,10 +558,7 @@ Questions:
 - In progress for her to learn as well. Lots of trial and error and maybe later after you find the 'right way' she may change again. She thinks it's important to be able to explain why you use a tool or process or change to something else.
     - Anna feedback: have internal reports that you can share for discussion, kind of like meeting notes
 
-## 11:30 - 12:30 	Project work
-
-
-## 13:30 - 18:00 	How to write a ~~perfect~~ *pretty good* reproducible paper (Workshop) — Christie Bahlai (Kent State University) & Anna Krystalli (University of Sheffield) 
+## How to write a ~~perfect~~ *pretty good* reproducible paper (Workshop) — Christie Bahlai (Kent State University) & Anna Krystalli (University of Sheffield) 
 
 Slides: https://docs.google.com/presentation/d/1MYetj9Ytd7rrGfbgIQoSLkwukN9qf-oqhuvpY3eoCIA/edit?usp=sharing
 Paper: http://rsos.royalsocietypublishing.org/content/3/12/160712
