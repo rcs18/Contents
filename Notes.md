@@ -11,7 +11,6 @@
   * [The journal as a medium for publishing software — Kate Keahey (University of Chicago)](#the-journal-as-a-medium-for-publishing-software--kate-keahey-university-of-chicago)
   * [Automatic tools for reproducible research — Kate Keahey (University of Chicago)](#automatic-tools-for-reproducible-research--kate-keahey-university-of-chicago)
   * [Techniques and guidelines for reporting reproducible and statistically sound result — Torsten Hoefler (ETH Zürich)](#techniques-and-guidelines-for-reporting-reproducible-and-statistically-sound-result--torsten-hoefler-eth-z%C3%BCrich)
-  * [Discussion Panel](#discussion-panel)
   * [Data management in research — Ana Sesartic Petrus &amp; Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)](#data-management-in-research--ana-sesartic-petrus--malin-michelle-ziehmer-digital-curation-office-eth-z%C3%BCrich)
   * [Practical data management — Anna Krystalli (University of Sheffield)](#practical-data-management--anna-krystalli-university-of-sheffield)
 - [Wednesday](#wednesday)
@@ -26,8 +25,6 @@
   * [Team 5](#team-5)
   * [Team 6](#team-6)
   * [Team 7](#team-7)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 # Monday 
 
@@ -318,101 +315,6 @@ When measuring performance, there are important questions with that are often an
 
 Reference Torsten's paper for more information on his talk:
 [' Scientific Benchmarking of Parallel Computing Systems'](https://htor.inf.ethz.ch/publications/img/hoefler-scientific-benchmarking.pdf)f
-
-## Discussion Panel
-
-1. Are the tools that we learn about at this summer school going to be obsolete within the next 2-5 years? How much effort is it for one to stay on top of the development of new tools? Could the reluctance of seniors researchers to learning and using the newest tools be justified by this?
-- you're learning the backflow of many tools now, when later there will probably only be one tool, one push of a button.
-- the summer school is not just about learning the tools but why you should and what is changing. Research is about learning and changing.
-- Christie - learning the principles, the core ideas of open science and understanding them
-- Torsten - why learn the tools now then just wait a few years for when these new tools are better? Ex: why learn R when we could just wait and learn python later?
-- Reply: we want to be ahead! Learning about something will usually help you learn more things later on.
-- Christie - skills are transferrable.
-- Us learning about the tools now will help us support the next generation use the next gen tools.
-- Kate - waiting means you miss out. Rapid prototyping can be a good indication of where cool stuff is happening.
-- Wenzel - we don't know what tool(s) are going to survive the battle.
-2. How could a Computational Science group be transformed such that continuous integration and tests become a habit? How to bridge the gap between the “scientific” coding style (unknown interfaces/unknown direction of future development/lots of fast prototyping) and the proper software engineering style (unit-test/CI/code review/doc/clear interfaces)?
-- Tim - Remember Napster, bitTorrent where so popular because that was the easiest way to get movies and music. Now with Netflix, itunes, etc., this doesn't happen. Whatever is easier is what people will do.
-- Anna - trial and error will teach people to be reproducible.
-- Malin - also need someone in the lab or institution to help lead the way
-- Tim - make it clear the connection between your time and your cost.
-- Torsten - if your work is not reproducible then over time your work won't be relevant?
-- Anna - maybe the funders will come into the game if major researchers don't play the producibility game.
-- Tim - He cares about being efficient than actually doing open science, necessarily. The more people that use my stuff, better it gets and the better reputation I have. Basically you can use selfish reasons to motivate some people. (some name calling occurs)
-- Anna - moving to getting recognition for datasets or software.
-- Discussion on if or how we use these tools during our PhD and if that was worth the investiment in those tools separately from the scientific work you are actually hired for, normally, in a PhD.
-- Heidi - Well it depends on what you want to do after, it can very well be the tools you learn and build can give you that post-doctoral position.
-- Eric - reproducibility is something you'll find useful, whether in writing a paper or working in industry.
-3. Didn't hear the question but something about publishing even bad code
-- Torsten - Always publish the code, even if you aren't proud. We've driven to higher productivity and we should help each other. Everyone should be tech-savy enough to understand their tools or experiments.
-- Malin - there is the code clinic at ETH!
-- Kate - Agrees that learning how to code and automate your work is really becoming a hard skill, not just a soft skill.
-- Anna - share your code with your peers even if it isn't publish-ready.
-4. When can you claim that you are reproducible?
-- Torsten - Better to claim it than not. Make this the new baseline.
-- Anna - tell others that use your code to help fix it, not just complain.
-- You can't win over everyone, don't stress about every comment you get.
-- Wenzel - usually you get constructive feedback but you can't help everyone so set some boundaries.
-- Tim - dealing with code you don't understand that others want you to integrate: try to work together but don't stress too much. You're going to go from the one writing the code to being the leader and managing the others working on the code.
-- Ana - Being reproducible means people value your work more.
-- Torsten - presenting your data well can give you a competitive advantage.
-4. What are the trade-offs between protecting people’s privacy and releasing research data? Even when working on public data privacy concerns have been raised. What’s the value of releasing research data vs. protecting user privacy?
-- Heidi - Fair data - compromise between privacy and openness.
-- Malin - making the metadata accessible should help making the data fair. ex: medical data: patients have to sign if they agree to share their data.
-5. How do you share confidental data?
-- Malin - sometimes it just isn't possible and you signed away that right. Truly anonymous data is not possible.
-- Christie - can make fake datasets that should work with the code but doesn't expose the real data.
-- Torsten - dealing with trade secrets is always hard to deal with in research. You will have to convince the readers that you have valid work without sharing that private data or trade secret.
-
-## Data management in research — Ana Sesartic Petrus & Malin Michelle Ziehmer (Digital Curation Office, ETH Zürich)
-
-[Digital Curation Office](https://www.library.ethz.ch/en/ms/Digital-Curation-at-ETH-Zurich)
-
-1. What is data management and why should it concern you?
-- Data is information
-- Active data management: annotate, store, backup data while it is produced. 
-- Benefits: Preserve data that cannot be replicated, avoid redundant data creation, highlight patterns, enable reuse/sharing of data, raise your impact.
-- Also: it is your duty to meet funders/ insitutional requirements. You also want to work with good scientific practice and influence the discussion on open data.
-2. What are regulations, intellectual property, privacy and access rights?
-- Compliance guides from ETH/EPFL
-- 'Project manager plays an active in guiding and monitoring junior scientists'
-- 'Primary data is carefully archived'
-- Lab notebook: this is data too!
-- Reality: project managers should adhere to good scientific practice and document all primary data appropiate to discipline and be reproducible.
-- Cloud computing regulations: check her presentation, depending on third parties.
-- In cases of doubt, ask permission from responsible or advice from ETH/EPFL library or IT.
-- Privacy - Swiss data protection laws apply.
-3. How do you go about data management planning (DMP)?
-- a data management plan is a brief plan written at the beginning of the project, answering how, where, who and which questions about your data.
-- SNSF - support scientific research, funding ~6000 projects. They evaluate research proposals.
-- Aim of SNSF in DMP: 
-    - planning and documenting the life cycle of data.
-    - offering a long-term perspective by outlining the lifetime of data.
-    - Dynamic process of building the DMP, so updating this.
-    - Making data fair.
-- Research group policy: agree on binding rules, define the data managment resonsible within the group, discuss and document rules with DMR.
-- [openBIS](https://openbis.elnlims.ch/) - data, protocols, electronic data notebook.
-- SIS (scientific IT services) provides active data management services to any researcher in Switzerland. Service to help labs move from lab to electronic lab notebooks.
-- ETH Research Data Hub: 100 Gbs to each research group (same at EPFL I believe (Kaitlin))
-- Switch/CIFEX - data stored in Switzerland and secure (as seen by Swiss authorities)
-- Polybox - safe version of Dropbox, only available to ETH users.
-- Mindmap - graphically structure your project, data.
-- Develop/apply as soon as possible a metadata scheme or find the existing standards for your field.
-4. How do you share data?
-- How to license research data:
-    - Creative Commons License - many options, depending on personal and institutional choices (in our case ETH/EPFL/swiss research institutions). Must contact data management responsible.
-- [re3data.org](https://www.re3data.org/)
-- ETH Research Collection/Infoscience: one-stop shop for depositing research output at ETH/EPFL respectively. Upload publications/research data, DOI-reservation, connection to ORCHID.
-    - At least ETH aligns with FAIR principles
-    - ETH archives the repository for long term storage
-- Long-preservation of data
-    - different time horizons - short term, up to 10 years, 10 years to permanent. 
-    - Keep data for at least 10 years to insure accountability if results are challenged.
-    - Keep in mind the format of the data since some formats will not be available long-term
-    - uncompressed/unencrypted data, well documented
-    - Check out presentation for suggested formats
-
-Take home message - think about what you do and start your management early in your career. 'Keep it as simple as possible - but distrust it!'
 
 ## Practical data management — Anna Krystalli (University of Sheffield)
 
